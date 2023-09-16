@@ -7,7 +7,18 @@
     function initializeTextSprite(eventId) {
         var event = $gameMap.event(eventId);
         if (event && event.event().meta.showText) {
-            var level = event.event().meta.level || "unknown";
+            var levelMeta = event.event().meta.level || "1";
+            var level;
+
+            if (levelMeta.includes('-')) {
+                var levelRange = levelMeta.split('-');
+                var minLevel = parseInt(levelRange[0]);
+                var maxLevel = parseInt(levelRange[1]);
+                level = Math.floor(Math.random() * (maxLevel - minLevel + 1)) + minLevel;
+            } else {
+                level = parseInt(levelMeta);
+            }
+
             var name = event.event().name;
             var text = name + " Niveau " + level;
 
