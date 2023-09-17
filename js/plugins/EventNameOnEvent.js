@@ -64,7 +64,11 @@
                 var textSprite = eventTextSprites[eventId].sprite;
                 textSprite.x = event.screenX() - eventTextSprites[eventId].width / 2;
                 textSprite.y = event.screenY() - 100;
-                textSprite.visible = Input.isPressed('tab');
+                if (event._erased) {
+                    textSprite.visible = false;
+                } else {
+                    textSprite.visible = Input.isPressed('tab');
+                }
             }
         });
     }
