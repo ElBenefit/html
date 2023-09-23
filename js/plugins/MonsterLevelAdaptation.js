@@ -11,7 +11,14 @@
             startCustomBattle(this._eventId);
         }
     };
-
+    function getAveragePartyLevel() {
+        var totalLevel = 0;
+        var members = $gameParty.members();
+        members.forEach(function (member) {
+            totalLevel += member.level;
+        });
+        return totalLevel / members.length;
+    }
     var lastEngagedEventId = null;
     // Sauvegardez la fonction d'initialisation originale
     var _Game_Event_initialize = Game_Event.prototype.initialize;
@@ -91,6 +98,8 @@
 
    
     function adjustTroopStats(troopId, eventLevel) {
+        var averagePartyLevel = getAveragePartyLevel();
+        var levelDifference = Math.abs(eventLevel - averagePartyLevel);
         var troop = $dataTroops[troopId];
         troop.members.forEach(function (member) {
             window.AdjustedBattleExp = 0;
@@ -103,8 +112,18 @@
             enemy.params[2] = enemy.params[2] + Math.round((enemy.params[2] * (eventLevel * 0.45)));
             //DEF
             enemy.params[3] = Math.round((enemy.params[3] + (eventLevel * 0.9)));
+
             //EXPERIENCE
-            enemy.exp = Math.round(enemy.exp * (eventLevel * 1.2));
+            if (levelDifference <= 6 && averagePartyLevel < eventLevel) { //rouge
+                enemy.exp = Math.round(enemy.exp * (eventLevel * 1.2) * 0.9);
+            } else if (levelDifference <= 3 && averagePartyLevel >= eventLevel) { //jaune
+                enemy.exp = Math.round(enemy.exp * (eventLevel * 1.2));
+            } else if (levelDifference >= 6 && averagePartyLevel > eventLevel) { //gris
+                enemy.exp = Math.round(enemy.exp * (eventLevel * 1.2) * 0.1);
+            } else {
+                enemy.exp = Math.round(enemy.exp * (eventLevel * 1.2) * 0.5);
+            }
+
             //GOLD
             enemy.gold = Math.round(enemy.gold * (1 + (eventLevel * 1.1)));
             console.log("Adjusted HP:", enemy.params[0]);
