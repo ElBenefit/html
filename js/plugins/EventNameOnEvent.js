@@ -2,9 +2,11 @@
     // Variable globale pour stocker les informations des événements
     window.eventInfoCache = {};
     var eventTextSprites = {};
-
+  
+ 
     // Initialise le sprite de texte pour un événement donné
     function initializeTextSprite(eventId) {
+        var playerlevel = $gameParty.leader().level;
         var event = $gameMap.event(eventId);
         if (event && event.event().meta.showText) {
             var levelMeta = event.event().meta.level || "1";
@@ -21,11 +23,25 @@
 
             var name = event.event().name;
             var text = name + " Niveau " + level;
-
             var textSprite = new Sprite(new Bitmap(160, 50));
             textSprite.bitmap.fontSize = 14;
             var textWidth = textSprite.bitmap.measureTextWidth(text);
             textSprite.bitmap.resize(textWidth, 50);
+            // Couleur des noms selons level
+            var leveldiff = playerlevel - level;
+            if (leveldiff <= 6 && playerlevel < level) { //rouge
+             textSprite.bitmap.textColor = '#E5003F';
+            }
+            else if ( leveldiff <=3 &&  playerlevel >= level) {//jaune   
+                textSprite.bitmap.textColor = '#E1E73A'
+            }
+            else if (leveldiff >= 6 && playerlevel > level) { // gris
+                textSprite.bitmap.textColor = '#B1B1B1'
+            }
+            else { 
+                console.log("c'est gris", leveldiff);
+                textSprite.bitmap.textColor = '#5FE73A'
+            }
             textSprite.bitmap.drawText(text, 0, 0, textWidth, 50);
 
             if (SceneManager._scene && SceneManager._scene._spriteset && SceneManager._scene._spriteset._tilemap) {
@@ -99,10 +115,6 @@
     Game_Enemy.prototype.setup = function (enemyId, x, y) {
         alias_Game_Enemy_setup.call(this, enemyId, x, y);
 
-        // Essayez de récupérer le niveau du monstre à partir du cache
-        var eventInfo = eventInfoCache[enemyId];
-        if (eventInfo && eventInfo.level) {
-            this._hp *= Number(eventInfo.level);
-        }
+       
     };
 })();
