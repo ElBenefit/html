@@ -1,4 +1,6 @@
 ﻿(function () {
+    window.AdjustedBattleExp = 0;
+    window.AdjustedBattleGold = 0;
     var _Game_Event_start = Game_Event.prototype.start;
     Game_Event.prototype.start = function () {
         _Game_Event_start.call(this);
@@ -87,9 +89,12 @@
     };
 
 
+   
     function adjustTroopStats(troopId, eventLevel) {
         var troop = $dataTroops[troopId];
         troop.members.forEach(function (member) {
+            window.AdjustedBattleExp = 0;
+            window.AdjustedBattleGold = 0;
             var enemy = $dataEnemies[member.enemyId];
             console.log("Original HP:", enemy.params[0]);
             //HP
@@ -107,6 +112,8 @@
             console.log("Adjusted Defense:", enemy.params[3]);
             console.log("Adjusted EXP:", enemy.exp);
             console.log("Adjusted Gold:", enemy.gold);
+            window.AdjustedBattleExp += enemy.exp;
+            window.AdjustedBattleGold += enemy.gold;
         });
     };
     var _Game_Map_update = Game_Map.prototype.update;

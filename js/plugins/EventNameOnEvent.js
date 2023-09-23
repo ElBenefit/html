@@ -39,7 +39,6 @@
                 textSprite.bitmap.textColor = '#B1B1B1'
             }
             else { 
-                console.log("c'est gris", leveldiff);
                 textSprite.bitmap.textColor = '#5FE73A'
             }
             textSprite.bitmap.drawText(text, 0, 0, textWidth, 50);

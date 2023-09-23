@@ -22,8 +22,8 @@ VictoryInfo.lastBattleItems = [];
 
     BattleManager.processVictory = function () {
         VictoryInfo.originalProcessVictory.call(this);
-        VictoryInfo.lastBattleExp = $gameTroop.expTotal();
-        VictoryInfo.lastBattleGold = $gameTroop.goldTotal();
+        VictoryInfo.lastBattleExp = window.AdjustedBattleExp;
+        VictoryInfo.lastBattleGold = window.AdjustedBattleGold;
         VictoryInfo.lastBattleItems = $gameTroop.makeDropItems();
         VictoryInfo.shouldDisplay = true;
     };
