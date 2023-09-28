@@ -2,2010 +2,601 @@
   {
     "id": 1,
     "question": "Résous : 24 + 37.",
-    "reponses": [
-      "51",
-      "61",
-      "71",
-      "81"
-    ],
+    "reponses": [ "51", "61", "71", "81" ],
     "reponse_correcte": "61"
   },
   {
     "id": 2,
-    "question": "Calcule : 85 - 29.",
-    "reponses": [
-      "56",
-      "62",
-      "66",
-      "76"
-    ],
-    "reponse_correcte": "56"
+    "question": "Résous : 15 + 26.",
+    "reponses": [ "31", "41", "51", "61" ],
+    "reponse_correcte": "41"
   },
   {
     "id": 3,
-    "question": "Trouve la multiplication : 7 x 9.",
-    "reponses": [
-      "54",
-      "63",
-      "72",
-      "81"
-    ],
-    "reponse_correcte": "63"
+    "question": "Résous : 32 + 18.",
+    "reponses": [ "40", "50", "60", "70" ],
+    "reponse_correcte": "50"
   },
   {
     "id": 4,
-    "question": "Divise : 72 ÷ 8.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
+    "question": "Résous : 45 - 23.",
+    "reponses": [ "12", "22", "32", "42" ],
+    "reponse_correcte": "22"
   },
   {
     "id": 5,
-    "question": "Résous : 5 x (6 + 3).",
-    "reponses": [
-      "27",
-      "45",
-      "54",
-      "63"
-    ],
-    "reponse_correcte": "45"
+    "question": "Résous : 56 - 28.",
+    "reponses": [ "18", "28", "38", "48" ],
+    "reponse_correcte": "28"
   },
   {
     "id": 6,
-    "question": "Si un rectangle a une longueur de 12 cm \net une largeur de 7 cm, quelle est son aire ?",
-    "reponses": [
-      "72 cm²",
-      "84 cm²",
-      "96 cm²",
-      "105 cm²"
-    ],
-    "reponse_correcte": "84 cm²"
+    "question": "Résous : 7 x 6.",
+    "reponses": [ "32", "42", "52", "62" ],
+    "reponse_correcte": "42"
   },
   {
     "id": 7,
-    "question": "Combien font 3/4 en pourcentage ?",
-    "reponses": [
-      "25%",
-      "50%",
-      "75%",
-      "100%"
-    ],
-    "reponse_correcte": "75%"
+    "question": "Résous : 8 x 5.",
+    "reponses": [ "30", "40", "50", "60" ],
+    "reponse_correcte": "40"
   },
   {
     "id": 8,
-    "question": "Si tu as 45 bonbons et que tu en donnes 15 \nà un ami, combien de bonbons te restent-ils ?",
-    "reponses": [
-      "20",
-      "25",
-      "30",
-      "35"
-    ],
-    "reponse_correcte": "30"
-  },
-  {
-    "id": 9,
-    "question": "Résous : 68 - 29.",
-    "reponses": [
-      "29",
-      "39",
-      "49",
-      "59"
-    ],
-    "reponse_correcte": "39"
-  },
-  {
-    "id": 10,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 11,
-    "question": "Divise : 72 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "8"
-  },
-  {
-    "id": 12,
-    "question": "Résous : 37 + 48.",
-    "reponses": [
-      "75",
-      "85",
-      "95",
-      "105"
-    ],
-    "reponse_correcte": "85"
-  },
-  {
-    "id": 13,
-    "question": "Si un triangle a une base de 10 cm \net une hauteur de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "40 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "40 cm²"
-  },
-  {
-    "id": 14,
-    "question": "Trouve la multiplication : 6 x 9.",
-    "reponses": [
-      "45",
-      "54",
-      "63",
-      "72"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 15,
-    "question": "Divise : 56 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "8"
-  },
-  {
-    "id": 16,
-    "question": "Résous : 95 - 37.",
-    "reponses": [
-      "48",
-      "58",
-      "68",
-      "78"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 17,
-    "question": "Trouve la multiplication : 7 x 8.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 18,
-    "question": "Divise : 63 ÷ 9.",
-    "reponses": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "reponse_correcte": "7"
-  },
-  {
-    "id": 19,
-    "question": "Résous : 48 + 29.",
-    "reponses": [
-      "67",
-      "77",
-      "87",
-      "97"
-    ],
-    "reponse_correcte": "77"
-  },
-  {
-    "id": 20,
-    "question": "Si un carré a une côté de 9 cm, quelle est son aire ?",
-    "reponses": [
-      "36 cm²",
-      "63 cm²",
-      "72 cm²",
-      "81 cm²"
-    ],
-    "reponse_correcte": "81 cm²"
-  },
-  {
-    "id": 21,
-    "question": "Résous : 37 + 56.",
-    "reponses": [
-      "83",
-      "93",
-      "103",
-      "113"
-    ],
-    "reponse_correcte": "93"
-  },
-  {
-    "id": 22,
-    "question": "Calcule : 64 - 28.",
-    "reponses": [
-      "36",
-      "42",
-      "46",
-      "52"
-    ],
+    "question": "Résous : 9 x 4.",
+    "reponses": [ "26", "36", "46", "56" ],
     "reponse_correcte": "36"
   },
   {
-    "id": 23,
-    "question": "Trouve la multiplication : 6 x 7.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
+    "id": 9,
+    "question": "Résous : 25 ÷ 5.",
+    "reponses": [ "3", "4", "5", "6" ],
+    "reponse_correcte": "5"
+  },
+  {
+    "id": 10,
+    "question": "Résous : 36 ÷ 6.",
+    "reponses": [ "5", "6", "7", "8" ],
+    "reponse_correcte": "6"
+  },
+  {
+    "id": 11,
+    "question": "Résous : 12 + 17.",
+    "reponses": [ "29", "28", "30", "27" ],
+    "reponse_correcte": "29"
+  },
+  {
+    "id": 12,
+    "question": "Résous : 33 - 14.",
+    "reponses": [ "19", "20", "18", "21" ],
+    "reponse_correcte": "19"
+  },
+  {
+    "id": 13,
+    "question": "Résous : 6 x 7.",
+    "reponses": [ "42", "43", "41", "44" ],
     "reponse_correcte": "42"
+  },
+  {
+    "id": 14,
+    "question": "Résous : 48 ÷ 6.",
+    "reponses": [ "8", "7", "9", "10" ],
+    "reponse_correcte": "8"
+  },
+  {
+    "id": 15,
+    "question": "Résous : 9 x 8.",
+    "reponses": [ "72", "73", "71", "70" ],
+    "reponse_correcte": "72"
+  },
+  {
+    "id": 16,
+    "question": "Résous : 27 + 35.",
+    "reponses": [ "62", "61", "63", "60" ],
+    "reponse_correcte": "62"
+  },
+  {
+    "id": 17,
+    "question": "Résous : 54 - 29.",
+    "reponses": [ "25", "24", "26", "23" ],
+    "reponse_correcte": "25"
+  },
+  {
+    "id": 18,
+    "question": "Résous : 5 x 9.",
+    "reponses": [ "45", "44", "46", "43" ],
+    "reponse_correcte": "45"
+  },
+  {
+    "id": 19,
+    "question": "Résous : 63 ÷ 7.",
+    "reponses": [ "9", "8", "10", "7" ],
+    "reponse_correcte": "9"
+  },
+  {
+    "id": 20,
+    "question": "Résous : 7 x 8.",
+    "reponses": [ "56", "55", "57", "54" ],
+    "reponse_correcte": "56"
+  },
+  {
+    "id": 21,
+    "question": "Résous : 22 + 18.",
+    "reponses": [ "39", "40", "41", "42" ],
+    "reponse_correcte": "40"
+  },
+  {
+    "id": 22,
+    "question": "Résous : 31 - 13.",
+    "reponses": [ "17", "18", "19", "20" ],
+    "reponse_correcte": "18"
+  },
+  {
+    "id": 23,
+    "question": "Résous : 4 x 8.",
+    "reponses": [ "30", "31", "32", "33" ],
+    "reponse_correcte": "32"
   },
   {
     "id": 24,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
+    "question": "Résous : 49 ÷ 7.",
+    "reponses": [ "6", "7", "8", "9" ],
+    "reponse_correcte": "7"
   },
   {
     "id": 25,
-    "question": "Résous : 48 + 37.",
-    "reponses": [
-      "75",
-      "85",
-      "95",
-      "105"
-    ],
-    "reponse_correcte": "85"
+    "question": "Résous : 8 x 9.",
+    "reponses": [ "71", "72", "73", "74" ],
+    "reponse_correcte": "72"
   },
   {
     "id": 26,
-    "question": "Si un rectangle a une longueur de 14 cm \net une largeur de 6 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "72 cm²",
-      "84 cm²",
-      "96 cm²"
-    ],
-    "reponse_correcte": "84 cm²"
+    "question": "Résous : 28 + 33.",
+    "reponses": [ "60", "61", "62", "63" ],
+    "reponse_correcte": "61"
   },
-
+  {
+    "id": 27,
+    "question": "Résous : 53 - 28.",
+    "reponses": [ "24", "25", "26", "27" ],
+    "reponse_correcte": "25"
+  },
   {
     "id": 28,
-    "question": "Si tu as 54 billes et que tu en donnes 12 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "48"
-    ],
-    "reponse_correcte": "42"
+    "question": "Résous : 6 x 6.",
+    "reponses": [ "35", "36", "37", "38" ],
+    "reponse_correcte": "36"
   },
   {
     "id": 29,
-    "question": "Résous : 75 - 27.",
-    "reponses": [
-      "48",
-      "58",
-      "68",
-      "78"
-    ],
-    "reponse_correcte": "48"
+    "question": "Résous : 64 ÷ 8.",
+    "reponses": [ "7", "8", "9", "10" ],
+    "reponse_correcte": "8"
   },
   {
     "id": 30,
-    "question": "Trouve la multiplication : 8 x 6.",
-    "reponses": [
-      "42",
-      "48",
-      "54",
-      "60"
-    ],
-    "reponse_correcte": "48"
+    "question": "Résous : 5 x 7.",
+    "reponses": [ "34", "35", "36", "37" ],
+    "reponse_correcte": "35"
   },
   {
     "id": 31,
-    "question": "Divise : 72 ÷ 6.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "12"
+    "question": "Résous : 14 + 16.",
+    "reponses": [ "29", "30", "31", "32" ],
+    "reponse_correcte": "30"
   },
   {
     "id": 32,
-    "question": "Résous : 64 + 39.",
-    "reponses": [
-      "93",
-      "103",
-      "113",
-      "123"
-    ],
-    "reponse_correcte": "103"
+    "question": "Résous : 40 - 15.",
+    "reponses": [ "24", "25", "26", "27" ],
+    "reponse_correcte": "25"
   },
   {
     "id": 33,
-    "question": "Si un triangle a une base de 12 cm \net une hauteur de 10 cm, quelle est son aire ?",
-    "reponses": [
-      "50 cm²",
-      "60 cm²",
-      "70 cm²",
-      "80 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
+    "question": "Résous : 3 x 9.",
+    "reponses": [ "26", "27", "28", "29" ],
+    "reponse_correcte": "27"
   },
   {
     "id": 34,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
+    "question": "Résous : 42 ÷ 6.",
+    "reponses": [ "6", "7", "8", "9" ],
+    "reponse_correcte": "7"
   },
   {
     "id": 35,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
+    "question": "Résous : 7 x 9.",
+    "reponses": [ "62", "63", "64", "65" ],
+    "reponse_correcte": "63"
   },
   {
     "id": 36,
-    "question": "Résous : 85 + 27.",
-    "reponses": [
-      "112",
-      "122",
-      "132",
-      "142"
-    ],
-    "reponse_correcte": "112"
+    "question": "Résous : 20 + 19.",
+    "reponses": [ "38", "39", "40", "41" ],
+    "reponse_correcte": "39"
   },
   {
     "id": 37,
-    "question": "Calcule : 46 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
+    "question": "Résous : 50 - 23.",
+    "reponses": [ "26", "27", "28", "29" ],
     "reponse_correcte": "27"
   },
   {
     "id": 38,
-    "question": "Trouve la multiplication : 9 x 8.",
-    "reponses": [
-      "64",
-      "72",
-      "80",
-      "88"
-    ],
-    "reponse_correcte": "72"
+    "question": "Résous : 5 x 5.",
+    "reponses": [ "24", "25", "26", "27" ],
+    "reponse_correcte": "25"
   },
   {
     "id": 39,
-    "question": "Divise : 54 ÷ 6.",
-    "reponses": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "reponse_correcte": "9"
+    "question": "Résous : 72 ÷ 9.",
+    "reponses": [ "7", "8", "9", "10" ],
+    "reponse_correcte": "8"
   },
   {
     "id": 40,
-    "question": "Résous : 63 + 39.",
-    "reponses": [
-      "92",
-      "102",
-      "112",
-      "122"
-    ],
-    "reponse_correcte": "102"
+    "question": "Résous : 4 x 6.",
+    "reponses": [ "23", "24", "25", "26" ],
+    "reponse_correcte": "24"
   },
   {
     "id": 41,
-    "question": "Si un carré a une côté de 7 cm, quelle est son aire ?",
-    "reponses": [
-      "28 cm²",
-      "35 cm²",
-      "42 cm²",
-      "49 cm²"
-    ],
-    "reponse_correcte": "49 cm²"
-  },
-
-  {
-    "id": 43,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 44,
-    "question": "Résous : 74 - 28.",
-    "reponses": [
-      "36",
-      "46",
-      "56",
-      "66"
-    ],
-    "reponse_correcte": "46"
-  },
-  {
-    "id": 45,
-    "question": "Trouve la multiplication : 7 x 9.",
-    "reponses": [
-      "54",
-      "63",
-      "72",
-      "81"
-    ],
-    "reponse_correcte": "63"
-  },
-  {
-    "id": 46,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 47,
-    "question": "Résous : 67 + 29.",
-    "reponses": [
-      "86",
-      "96",
-      "106",
-      "116"
-    ],
-    "reponse_correcte": "96"
-  },
-  {
-    "id": 48,
-    "question": "Calcule : 56 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
+    "question": "Résous : 13 + 15.",
+    "reponses": [ "27", "28", "29", "30" ],
     "reponse_correcte": "28"
   },
   {
-    "id": 49,
-    "question": "Si un rectangle a une longueur de 16 cm \net une largeur de 5 cm, quelle est son aire ?",
-    "reponses": [
-      "65 cm²",
-      "75 cm²",
-      "85 cm²",
-      "95 cm²"
-    ],
-    "reponse_correcte": "80 cm²"
+    "id": 42,
+    "question": "Résous : 35 - 14.",
+    "reponses": [ "20", "21", "22", "23" ],
+    "reponse_correcte": "21"
   },
   {
-    "id": 50,
-    "question": "Combien font 4/5 en pourcentage ?",
-    "reponses": [
-      "20%",
-      "40%",
-      "60%",
-      "80%"
-    ],
-    "reponse_correcte": "80%"
+    "id": 43,
+    "question": "Résous : 4 x 7.",
+    "reponses": [ "27", "28", "29", "30" ],
+    "reponse_correcte": "28"
   },
   {
-    "id": 51,
-    "question": "Si tu as 63 billes et que tu en donnes 21 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "48"
-    ],
-    "reponse_correcte": "42"
+    "id": 44,
+    "question": "Résous : 36 ÷ 6.",
+    "reponses": [ "5", "6", "7", "8" ],
+    "reponse_correcte": "6"
   },
   {
-    "id": 52,
-    "question": "Résous : 88 - 28.",
-    "reponses": [
-      "36",
-      "46",
-      "56",
-      "66"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 53,
-    "question": "Trouve la multiplication : 8 x 8.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "64"
-  },
-  {
-    "id": 54,
-    "question": "Divise : 72 ÷ 8.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 55,
-    "question": "Résous : 96 + 37.",
-    "reponses": [
-      "123",
-      "133",
-      "143",
-      "153"
-    ],
-    "reponse_correcte": "133"
-  },
-  {
-    "id": 56,
-    "question": "Calcule : 48 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "29"
-  },
-  {
-    "id": 57,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 59,
-    "question": "Si tu as 80 billes et que tu en donnes 20 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 60,
-    "question": "Résous : 75 - 28.",
-    "reponses": [
-      "37",
-      "47",
-      "57",
-      "67"
-    ],
-    "reponse_correcte": "47"
-  },
-  {
-    "id": 61,
-    "question": "Trouve la multiplication : 7 x 7.",
-    "reponses": [
-      "49",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "49"
-  },
-  {
-    "id": 62,
-    "question": "Divise : 54 ÷ 6.",
-    "reponses": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 63,
-    "question": "Résous : 74 + 29.",
-    "reponses": [
-      "93",
-      "103",
-      "113",
-      "123"
-    ],
-    "reponse_correcte": "103"
-  },
-  {
-    "id": 64,
-    "question": "Si un triangle a une base de 14 cm \net une hauteur de 6 cm, quelle est son aire ?",
-    "reponses": [
-      "42 cm²",
-      "56 cm²",
-      "70 cm²",
-      "84 cm²"
-    ],
-    "reponse_correcte": "42 cm²"
-  },
-  {
-    "id": 65,
-    "question": "Combien font 3/5 en pourcentage ?",
-    "reponses": [
-      "20%",
-      "40%",
-      "60%",
-      "80%"
-    ],
-    "reponse_correcte": "60%"
-  },
-  {
-    "id": 66,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 67,
-    "question": "Résous : 78 - 29.",
-    "reponses": [
-      "39",
-      "49",
-      "59",
-      "69"
-    ],
-    "reponse_correcte": "49"
-  },
-  {
-    "id": 68,
-    "question": "Trouve la multiplication : 9 x 7.",
-    "reponses": [
-      "54",
-      "63",
-      "72",
-      "81"
-    ],
-    "reponse_correcte": "63"
-  },
-  {
-    "id": 69,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 70,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 71,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 72,
-    "question": "Si un rectangle a une longueur de 18 cm \net une largeur de 4 cm, quelle est son aire ?",
-    "reponses": [
-      "72 cm²",
-      "80 cm²",
-      "88 cm²",
-      "96 cm²"
-    ],
-    "reponse_correcte": "72 cm²"
-  },
-  {
-    "id": 73,
-    "question": "Combien font 2/5 en pourcentage ?",
-    "reponses": [
-      "20%",
-      "40%",
-      "60%",
-      "80%"
-    ],
-    "reponse_correcte": "40%"
-  },
-  {
-    "id": 74,
-    "question": "Si tu as 81 billes et que tu en donnes 27 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 75,
-    "question": "Résous : 64 - 29.",
-    "reponses": [
-      "35",
-      "45",
-      "55",
-      "65"
-    ],
-    "reponse_correcte": "35"
-  },
-  {
-    "id": 76,
-    "question": "Trouve la multiplication : 6 x 8.",
-    "reponses": [
-      "42",
-      "48",
-      "54",
-      "60"
-    ],
+    "id": 45,
+    "question": "Résous : 6 x 8.",
+    "reponses": [ "47", "48", "49", "50" ],
     "reponse_correcte": "48"
   },
   {
-    "id": 77,
-    "question": "Divise : 72 ÷ 6.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
+    "id": 46,
+    "question": "Résous : 18 + 21.",
+    "reponses": [ "38", "39", "40", "41" ],
+    "reponse_correcte": "39"
+  },
+  {
+    "id": 47,
+    "question": "Résous : 44 - 22.",
+    "reponses": [ "21", "22", "23", "24" ],
+    "reponse_correcte": "22"
+  },
+  {
+    "id": 48,
+    "question": "Résous : 5 x 4.",
+    "reponses": [ "19", "20", "21", "22" ],
+    "reponse_correcte": "20"
+  },
+  {
+    "id": 49,
+    "question": "Résous : 81 ÷ 9.",
+    "reponses": [ "8", "9", "10", "11" ],
+    "reponse_correcte": "9"
+  },
+  {
+    "id": 50,
+    "question": "Résous : 3 x 5.",
+    "reponses": [ "14", "15", "16", "17" ],
+    "reponse_correcte": "15"
+  },
+  {
+    "id": 51,
+    "question": "Si tu as 3 mètres de corde et que tu en prends 1 mètre, combien te reste-t-il?",
+    "reponses": [ "1 m", "2 m", "3 m", "4 m" ],
+    "reponse_correcte": "2 m"
+  },
+  {
+    "id": 52,
+    "question": "Combien y a-t-il de centimètres dans 1 mètre?",
+    "reponses": [ "10 cm", "100 cm", "1000 cm", "10000 cm" ],
+    "reponse_correcte": "100 cm"
+  },
+  {
+    "id": 53,
+    "question": "Si un sac de bonbons pèse 500 grammes, combien pèsent 2 sacs?",
+    "reponses": [ "500 g", "750 g", "1000 g", "1500 g" ],
+    "reponse_correcte": "1000 g"
+  },
+  {
+    "id": 54,
+    "question": "Combien y a-t-il de grammes dans 1 kilogramme?",
+    "reponses": [ "10 g", "100 g", "1000 g", "10000 g" ],
+    "reponse_correcte": "1000 g"
+  },
+  {
+    "id": 55,
+    "question": "Si une règle mesure 30 cm et un crayon mesure 15 cm, quelle est la longueur totale des deux?",
+    "reponses": [ "35 cm", "40 cm", "45 cm", "50 cm" ],
+    "reponse_correcte": "45 cm"
+  },
+  {
+    "id": 56,
+    "question": "Julie a 3 boîtes. Chaque boîte contient 4 pommes. Combien de pommes a-t-elle en tout?",
+    "reponses": [ "7", "12", "15", "20" ],
     "reponse_correcte": "12"
   },
   {
-    "id": 78,
-    "question": "Résous : 74 + 37.",
-    "reponses": [
-      "111",
-      "121",
-      "131",
-      "141"
-    ],
-    "reponse_correcte": "111"
-  },
-  {
-    "id": 79,
-    "question": "Si un carré a une côté de 6 cm, quelle est son aire ?",
-    "reponses": [
-      "24 cm²",
-      "36 cm²",
-      "42 cm²",
-      "48 cm²"
-    ],
-    "reponse_correcte": "36 cm²"
-  },
-
-  {
-    "id": 81,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "48"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 82,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "46",
-      "56",
-      "66"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 83,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 84,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 85,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 86,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 87,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "40 cm²",
-      "60 cm²",
-      "80 cm²",
-      "100 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 89,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 90,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 91,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 92,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 93,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 94,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 95,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 97,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 98,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 99,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 100,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 101,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 102,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 103,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 105,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 106,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 107,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 108,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 109,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 110,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 111,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 113,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 114,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 115,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 116,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 117,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 118,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 119,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 121,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 122,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 123,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 124,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 125,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 126,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 127,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 129,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 130,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 131,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 132,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 133,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 134,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 135,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 137,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 138,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 139,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 140,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 141,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 142,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 143,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 145,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 146,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 147,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 148,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 149,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 150,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 151,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 153,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 154,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 155,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 156,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 157,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 158,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 159,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 161,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 162,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 163,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 164,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 165,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 166,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 167,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
-  },
-
-  {
-    "id": 169,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
-  },
-  {
-    "id": 170,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
-  },
-  {
-    "id": 171,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
-  },
-  {
-    "id": 172,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 173,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 174,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 175,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 177,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 178,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 179,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 180,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
+    "id": 57,
+    "question": "Un sac de farine pèse 2 kilogrammes. Combien pèsent 3 sacs?",
+    "reponses": [ "5 kg", "6 kg", "7 kg", "8 kg" ],
+    "reponse_correcte": "6 kg"
   },
   {
     "id": 58,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
+    "question": "Si une bouteille contient 1 litre d'eau, combien de millilitres cela représente-t-il?",
+    "reponses": [ "10 ml", "100 ml", "1000 ml", "10000 ml" ],
+    "reponse_correcte": "1000 ml"
+  },
+  {
+    "id": 59,
+    "question": "Luc a 5 billes et il en donne 2 à son ami. Combien lui reste-t-il de billes?",
+    "reponses": [ "2", "3", "4", "5" ],
+    "reponse_correcte": "3"
+  },
+  {
+    "id": 60,
+    "question": "Si une barre de chocolat pèse 250 grammes, combien pèsent 4 barres?",
+    "reponses": [ "500 g", "750 g", "1000 g", "1250 g" ],
+    "reponse_correcte": "1000 g"
+  },
+  {
+    "id": 61,
+    "question": "Si une gomme mesure 5 centimètres de long, quelle est la longueur totale de 3 gommes mises bout à bout?",
+    "reponses": [ "10 cm", "15 cm", "20 cm", "25 cm" ],
+    "reponse_correcte": "15 cm"
+  },
+  {
+    "id": 62,
+    "question": "Un paquet de sucre pèse 750 grammes. Si tu utilises 250 grammes pour une recette, combien te reste-t-il de sucre?",
+    "reponses": [ "250 g", "500 g", "750 g", "1000 g" ],
+    "reponse_correcte": "500 g"
+  },
+  {
+    "id": 63,
+    "question": "Combien y a-t-il de millimètres dans 1 centimètre?",
+    "reponses": [ "1 mm", "10 mm", "100 mm", "1000 mm" ],
+    "reponse_correcte": "10 mm"
+  },
+  {
+    "id": 64,
+    "question": "Si un livre pèse 300 grammes, combien pèsent 4 livres?",
+    "reponses": [ "900 g", "1000 g", "1100 g", "1200 g" ],
+    "reponse_correcte": "1200 g"
+  },
+  {
+    "id": 65,
+    "question": "Marie a 4 paquets de bonbons. Chaque paquet contient 6 bonbons. Combien de bonbons a-t-elle en tout?",
+    "reponses": [ "20", "24", "28", "32" ],
+    "reponse_correcte": "24"
+  },
+  {
+    "id": 66,
+    "question": "Un pot de confiture contient 500 millilitres. Combien de litres cela représente-t-il?",
+    "reponses": [ "0.2 L", "0.5 L", "1 L", "2 L" ],
+    "reponse_correcte": "0.5 L"
+  },
+  {
+    "id": 67,
+    "question": "Si tu as 2 litres d'eau et que tu verses 750 millilitres dans un verre, combien te reste-t-il d'eau?",
+    "reponses": [ "0.5 L", "1 L", "1.25 L", "1.5 L" ],
+    "reponse_correcte": "1.25 L"
+  },
+  {
+    "id": 68,
+    "question": "Un sac de riz pèse 1.5 kilogrammes. Si tu achètes 3 sacs, combien pèsent-ils en tout?",
+    "reponses": [ "3 kg", "4.5 kg", "5 kg", "6 kg" ],
+    "reponse_correcte": "4.5 kg"
+  },
+  {
+    "id": 69,
+    "question": "Paul a 7 crayons. Il en donne 3 à son ami. Combien lui reste-t-il de crayons?",
+    "reponses": [ "2", "3", "4", "5" ],
+    "reponse_correcte": "4"
+  },
+  {
+    "id": 70,
+    "question": "Si une boîte contient 250 grammes de céréales, combien de grammes y a-t-il dans 4 boîtes?",
+    "reponses": [ "500 g", "750 g", "1000 g", "1250 g" ],
+    "reponse_correcte": "1000 g"
+  },
+  {
+    "id": 71,
+    "question": "Si une règle mesure 20 centimètres, combien mesurent 5 règles mises bout à bout?",
+    "reponses": [ "50 cm", "80 cm", "100 cm", "120 cm" ],
+    "reponse_correcte": "100 cm"
+  },
+  {
+    "id": 72,
+    "question": "Un paquet de biscuits pèse 400 grammes. Si tu manges la moitié du paquet, combien de grammes de biscuits as-tu mangé?",
+    "reponses": [ "100 g", "150 g", "200 g", "250 g" ],
+    "reponse_correcte": "200 g"
+  },
+  {
+    "id": 73,
+    "question": "Combien y a-t-il de centimètres dans 2 mètres?",
+    "reponses": [ "20 cm", "100 cm", "200 cm", "500 cm" ],
+    "reponse_correcte": "200 cm"
+  },
+  {
+    "id": 74,
+    "question": "Si une bouteille contient 1.5 litres d'eau, combien de millilitres cela représente-t-il?",
+    "reponses": [ "500 ml", "1000 ml", "1500 ml", "2000 ml" ],
+    "reponse_correcte": "1500 ml"
+  },
+  {
+    "id": 75,
+    "question": "Lucas a 6 paquets de cartes. Chaque paquet contient 8 cartes. Combien de cartes a-t-il en tout?",
+    "reponses": [ "38", "44", "48", "52" ],
+    "reponse_correcte": "48"
+  },
+  {
+    "id": 76,
+    "question": "Un pot de miel contient 750 millilitres. Combien de litres cela représente-t-il?",
+    "reponses": [ "0.5 L", "0.75 L", "1 L", "1.5 L" ],
+    "reponse_correcte": "0.75 L"
+  },
+  {
+    "id": 77,
+    "question": "Si tu as 3 litres de jus et que tu verses 1 litre dans un pichet, combien te reste-t-il de jus?",
+    "reponses": [ "1 L", "2 L", "3 L", "4 L" ],
+    "reponse_correcte": "2 L"
+  },
+  {
+    "id": 78,
+    "question": "Un sac de bonbons pèse 2 kilogrammes. Si tu achètes 2 sacs, combien pèsent-ils en tout?",
+    "reponses": [ "2 kg", "3 kg", "4 kg", "5 kg" ],
+    "reponse_correcte": "4 kg"
+  },
+  {
+    "id": 79,
+    "question": "Emma a 9 chocolats. Elle en mange 4. Combien lui reste-t-il de chocolats?",
+    "reponses": [ "3", "4", "5", "6" ],
+    "reponse_correcte": "5"
   },
   {
     "id": 80,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "37",
-      "34"
-    ],
-    "reponse_correcte": "37"
+    "question": "Si une boîte contient 300 grammes de pâtes, combien de grammes y a-t-il dans 3 boîtes?",
+    "reponses": [ "600 g", "750 g", "900 g", "1000 g" ],
+    "reponse_correcte": "900 g"
+  },
+  {
+    "id": 81,
+    "question": "Si un crayon mesure 15 centimètres, combien mesurent 4 crayons mis bout à bout?",
+    "reponses": [ "45 cm", "60 cm", "75 cm", "90 cm" ],
+    "reponse_correcte": "60 cm"
+  },
+  {
+    "id": 82,
+    "question": "Un paquet de farine pèse 500 grammes. Si tu utilises les 3/4 du paquet, combien de grammes as-tu utilisé?",
+    "reponses": [ "125 g", "250 g", "375 g", "500 g" ],
+    "reponse_correcte": "375 g"
+  },
+  {
+    "id": 83,
+    "question": "Combien y a-t-il de millimètres dans 3 centimètres?",
+    "reponses": [ "30 mm", "100 mm", "300 mm", "1000 mm" ],
+    "reponse_correcte": "300 mm"
+  },
+  {
+    "id": 84,
+    "question": "Si une bouteille contient 2 litres de lait, combien de millilitres cela représente-t-il?",
+    "reponses": [ "200 ml", "500 ml", "1000 ml", "2000 ml" ],
+    "reponse_correcte": "2000 ml"
+  },
+  {
+    "id": 85,
+    "question": "Julien a 5 paquets de gâteaux. Chaque paquet contient 10 gâteaux. Combien de gâteaux a-t-il en tout?",
+    "reponses": [ "25", "40", "50", "60" ],
+    "reponse_correcte": "50"
+  },
+  {
+    "id": 86,
+    "question": "Un pot de yaourt contient 125 millilitres. Combien de litres cela représente-t-il?",
+    "reponses": [ "0.0125 L", "0.125 L", "1.25 L", "12.5 L" ],
+    "reponse_correcte": "0.125 L"
+  },
+  {
+    "id": 87,
+    "question": "Si tu as 4 litres de soda et que tu verses 1.5 litres dans des verres, combien te reste-t-il de soda?",
+    "reponses": [ "1.5 L", "2 L", "2.5 L", "3 L" ],
+    "reponse_correcte": "2.5 L"
   },
   {
     "id": 88,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
+    "question": "Un sac de pommes pèse 1.5 kilogrammes. Si tu achètes 4 sacs, combien pèsent-ils en tout?",
+    "reponses": [ "4 kg", "5 kg", "6 kg", "7 kg" ],
+    "reponse_correcte": "6 kg"
   },
-
+  {
+    "id": 89,
+    "question": "Léa a 12 bonbons. Elle en donne la moitié à son frère. Combien lui reste-t-il de bonbons?",
+    "reponses": [ "4", "5", "6", "7" ],
+    "reponse_correcte": "6"
+  },
+  {
+    "id": 90,
+    "question": "Si une boîte contient 350 grammes de riz, combien de grammes y a-t-il dans 2 boîtes?",
+    "reponses": [ "500 g", "600 g", "700 g", "800 g" ],
+    "reponse_correcte": "700 g"
+  },
+  {
+    "id": 91,
+    "question": "Un mètre ruban mesure 100 centimètres. Si tu utilises 25 centimètres, combien te reste-t-il?",
+    "reponses": [ "65 cm", "75 cm", "85 cm", "95 cm" ],
+    "reponse_correcte": "75 cm"
+  },
+  {
+    "id": 92,
+    "question": "Un paquet de sucre pèse 1 kilogramme. Si tu utilises 250 grammes, combien te reste-t-il de sucre?",
+    "reponses": [ "500 g", "750 g", "1000 g", "1250 g" ],
+    "reponse_correcte": "750 g"
+  },
+  {
+    "id": 93,
+    "question": "Combien y a-t-il de centimètres dans 2.5 mètres?",
+    "reponses": [ "100 cm", "150 cm", "250 cm", "350 cm" ],
+    "reponse_correcte": "250 cm"
+  },
+  {
+    "id": 94,
+    "question": "Si une bouteille contient 2.5 litres d'eau, combien de millilitres cela représente-t-il?",
+    "reponses": [ "1500 ml", "2000 ml", "2500 ml", "3000 ml" ],
+    "reponse_correcte": "2500 ml"
+  },
+  {
+    "id": 95,
+    "question": "Martin a 7 paquets de cartes. Chaque paquet contient 5 cartes. Combien de cartes a-t-il en tout?",
+    "reponses": [ "25", "30", "35", "40" ],
+    "reponse_correcte": "35"
+  },
   {
     "id": 96,
-    "question": "Si tu as 90 billes et que tu en donnes 30 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "reponse_correcte": "60"
+    "question": "Un pot de confiture contient 450 millilitres. Combien de litres cela représente-t-il?",
+    "reponses": [ "0.25 L", "0.45 L", "0.5 L", "0.75 L" ],
+    "reponse_correcte": "0.45 L"
   },
   {
-    "id": 104,
-    "question": "Résous : 86 - 28.",
-    "reponses": [
-      "38",
-      "48",
-      "58",
-      "68"
-    ],
-    "reponse_correcte": "58"
+    "id": 97,
+    "question": "Si tu as 5 litres de jus et que tu verses 2 litres dans un pichet, combien te reste-t-il de jus?",
+    "reponses": [ "2 L", "3 L", "4 L", "5 L" ],
+    "reponse_correcte": "3 L"
   },
   {
-    "id": 112,
-    "question": "Trouve la multiplication : 8 x 7.",
-    "reponses": [
-      "48",
-      "56",
-      "64",
-      "72"
-    ],
-    "reponse_correcte": "56"
+    "id": 98,
+    "question": "Un sac de bonbons pèse 2.5 kilogrammes. Si tu achètes 2 sacs, combien pèsent-ils en tout?",
+    "reponses": [ "4 kg", "4.5 kg", "5 kg", "6 kg" ],
+    "reponse_correcte": "5 kg"
   },
   {
-    "id": 120,
-    "question": "Divise : 63 ÷ 7.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
+    "id": 99,
+    "question": "Élise a 15 chocolats. Elle en mange un tiers. Combien lui reste-t-il de chocolats?",
+    "reponses": [ "5", "10", "12", "15" ],
+    "reponse_correcte": "10"
   },
   {
-    "id": 128,
-    "question": "Résous : 85 + 39.",
-    "reponses": [
-      "114",
-      "124",
-      "134",
-      "144"
-    ],
-    "reponse_correcte": "124"
-  },
-  {
-    "id": 136,
-    "question": "Calcule : 46 - 28.",
-    "reponses": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "reponse_correcte": "18"
-  },
-  {
-    "id": 144,
-    "question": "Si un carré a une côté de 8 cm, quelle est son aire ?",
-    "reponses": [
-      "32 cm²",
-      "48 cm²",
-      "56 cm²",
-      "64 cm²"
-    ],
-    "reponse_correcte": "64 cm²"
-  },
-
-  {
-    "id": 152,
-    "question": "Si tu as 72 billes et que tu en donnes 18 \nà un ami, combien de billes te restent-elles ?",
-    "reponses": [
-      "30",
-      "36",
-      "42",
-      "54"
-    ],
-    "reponse_correcte": "54"
-  },
-  {
-    "id": 160,
-    "question": "Résous : 68 - 28.",
-    "reponses": [
-      "36",
-      "40",
-      "46",
-      "58"
-    ],
-    "reponse_correcte": "40"
-  },
-  {
-    "id": 168,
-    "question": "Trouve la multiplication : 7 x 6.",
-    "reponses": [
-      "36",
-      "42",
-      "48",
-      "54"
-    ],
-    "reponse_correcte": "42"
-  },
-  {
-    "id": 176,
-    "question": "Divise : 81 ÷ 9.",
-    "reponses": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "reponse_correcte": "9"
-  },
-  {
-    "id": 184,
-    "question": "Résous : 74 + 28.",
-    "reponses": [
-      "102",
-      "112",
-      "122",
-      "132"
-    ],
-    "reponse_correcte": "102"
-  },
-  {
-    "id": 192,
-    "question": "Calcule : 56 - 19.",
-    "reponses": [
-      "27",
-      "29",
-      "32",
-      "34"
-    ],
-    "reponse_correcte": "37"
-  },
-  {
-    "id": 42,
-    "question": "Si un rectangle a une longueur de 20 cm \net une largeur de 3 cm, quelle est son aire ?",
-    "reponses": [
-      "60 cm²",
-      "80 cm²",
-      "100 cm²",
-      "120 cm²"
-    ],
-    "reponse_correcte": "60 cm²"
+    "id": 100,
+    "question": "Si une boîte contient 400 grammes de pâtes, combien de grammes y a-t-il dans 3 boîtes?",
+    "reponses": [ "800 g", "1000 g", "1200 g", "1500 g" ],
+    "reponse_correcte": "1200 g"
   }
 ]

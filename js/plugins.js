@@ -6,5 +6,6 @@ var $plugins =
 {"name":"MadeWithMv","status":false,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
 {"name":"EventNameOnEvent","status":true,"description":"","parameters":{}},
 {"name":"MonsterLevelAdaptation","status":true,"description":"","parameters":{}},
-{"name":"FenetrePopApresCombat","status":true,"description":"","parameters":{}}
+{"name":"FenetrePopApresCombat","status":true,"description":"","parameters":{}},
+{"name":"Portails","status":true,"description":"","parameters":{}}
 ];

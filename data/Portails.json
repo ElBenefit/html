@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nom": "Zaka",
+    "decouvert": false
+  },
+  {
+    "id": 2,
+    "nom": "Ilya",
+    "decouvert": false
+  },
+  {
+    "id": 3,
+    "nom": "Sveil",
+    "decouvert": false
+  }
+]
