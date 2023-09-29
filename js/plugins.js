@@ -7,5 +7,6 @@ var $plugins =
 {"name":"EventNameOnEvent","status":true,"description":"","parameters":{}},
 {"name":"MonsterLevelAdaptation","status":true,"description":"","parameters":{}},
 {"name":"FenetrePopApresCombat","status":true,"description":"","parameters":{}},
-{"name":"Portails","status":true,"description":"","parameters":{}}
+{"name":"Portails","status":true,"description":"","parameters":{}},
+{"name":"QuizMath","status":true,"description":"","parameters":{}}
 ];
