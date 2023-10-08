@@ -17,7 +17,14 @@
             QuestionsQuizMath = object;
         }
     };
-
+    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+        _Game_Interpreter_pluginCommand.call(this, command, args);
+        if (command === "BattleProcessing") {
+            console.log(this);
+            window.lastEventTriggeredBattle = this.eventId();
+        }
+    }
     BattleManager.setup = function (troopId, canEscape, canLose) {
         this.initMembers();
         this._canEscape = canEscape;
@@ -26,12 +33,13 @@
         $gameScreen.onBattleStart();
         this.makeEscapeRatio();
         initialAtk = $gameActors.actor(1).atk; // Stockez la valeur initiale de l'attaque ici
-        $dataTroops[troopId].members.forEach(function (member) {
-            if ($dataEnemies[member.enemyId] && $dataEnemies[member.enemyId].note.indexOf("<Quiz:Math>") !== -1) {
-                isInQuizMode = true;
-                shouldDisplayQuestion = true;
-            }
-        });
+
+        var eventId = window.quizEventId; // Utilisez la variable globale pour obtenir l'ID de l'événement
+        var event = $gameMap.event(eventId);
+        if (event && event.event().note.indexOf("<Quiz:Math>") !== -1) {
+            isInQuizMode = true;
+            shouldDisplayQuestion = true;
+        }
     };
 
     var _Scene_Battle_update = Scene_Battle.prototype.update;
@@ -52,14 +60,11 @@
             $gameMessage.setChoiceCallback(function (responseIndex) {
                 if (isInQuizMode && currentQuestion) {
                     playerAnswer = currentQuestion.reponses[responseIndex];
-                    console.log("Dégâts avant la réponse: ", $gameActors.actor(1).atk);
                     if (playerAnswer === currentQuestion.reponse_correcte) {
-                        $gameActors.actor(1).addParam(2, 6);
-                        console.log("Dégâts après une bonne réponse: ", $gameActors.actor(1).atk);
+                        $gameActors.actor(1).addParam(2, 60);
                         feedbackMessage = "Bien joué !";
                     } else {
                         $gameActors.actor(1).addParam(2, -3);
-                        console.log("Dégâts après une mauvaise réponse: ", $gameActors.actor(1).atk);
                         feedbackMessage = "Arg c'est faux ! La bonne réponse était : " + currentQuestion.reponse_correcte;
                     }
                     currentQuestion = null;
@@ -80,5 +85,4 @@
             $gameActors.actor(1).addParam(2, initialAtk - $gameActors.actor(1).atk); // Réinitialisez l'attaque à sa valeur initiale
         }
     };
-
 })();

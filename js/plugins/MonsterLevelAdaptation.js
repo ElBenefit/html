@@ -1,4 +1,6 @@
 ﻿(function () {
+    var quizEventId = null;
+
     window.AdjustedBattleExp = 0;
     window.AdjustedBattleGold = 0;
     var _Game_Event_start = Game_Event.prototype.start;
@@ -6,6 +8,7 @@
         _Game_Event_start.call(this);
         console.log("Event started:", this._eventId);
 
+        window.quizEventId = this._eventId;
         if (this.event().note.includes('<Fight>')) {
             console.log("Starting custom battle for event:", this._eventId);
             startCustomBattle(this._eventId);
@@ -96,7 +99,7 @@
     };
 
 
-   
+
     function adjustTroopStats(troopId, eventLevel) {
         var averagePartyLevel = getAveragePartyLevel();
         var levelDifference = Math.abs(eventLevel - averagePartyLevel);
@@ -156,7 +159,7 @@
         // Réinitialisez tous les indicateurs
         combatInitializedForEvents = {};
         var event = $gameMap.event(lastEngagedEventId);
-     
+
         $dataEnemies.forEach(function (enemy, index) {
             if (enemy && originalEnemyStats[index]) {
                 enemy.params[0] = originalEnemyStats[index].hp;
@@ -169,6 +172,12 @@
         if (event) {
             event._erased = true;
             event.refresh();
+        }
+
+        // Ajout de l'expérience au serveur
+        if (result === 0) { // Si le combat a été gagné
+
+            updateExperienceOnServer(window.AdjustedBattleExp);
         }
     };
 

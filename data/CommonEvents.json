@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"list":[{"code":355,"indent":0,"parameters":["function getRandomInt(max) {"]},{"code":655,"indent":0,"parameters":["  return Math.floor(Math.random() * max);"]},{"code":655,"indent":0,"parameters":["}"]},{"code":655,"indent":0,"parameters":[""]},{"code":655,"indent":0,"parameters":["let randomInt= getRandomInt(3);"]},{"code":655,"indent":0,"parameters":["var fs = require('fs');"]},{"code":655,"indent":0,"parameters":["$gameMessage.add(JSON.parse(fs.readFileSync('data/dialogues.json', 'utf8'))[randomInt].dialogue);"]},{"code":0,"indent":0,"parameters":[]}],"name":"Script Dials","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"QuizMath","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
