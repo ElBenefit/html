@@ -177,7 +177,7 @@
         // Ajout de l'expérience au serveur
         if (result === 0) { // Si le combat a été gagné
 
-            updateExperienceOnServer(window.AdjustedBattleExp);
+            updateExperienceAndGoldOnServer(window.AdjustedBattleExp, window.AdjustedBattleGold);
         }
     };
 

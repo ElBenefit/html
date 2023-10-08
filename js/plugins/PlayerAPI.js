@@ -1,102 +1,71 @@
 
 (function () {
-    window.updateExperienceOnServer = function (experienceToAdd) {
+    window.updateExperienceAndGoldOnServer = function (experienceToAdd, goldToAdd) {
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://127.0.0.1:8000/api/player/update-experience');
+        xhr.open('POST', 'http://127.0.0.1:8000/api/player/update-experience-and-gold');
         xhr.setRequestHeader('Content-Type', 'application/json');
-        // Inclure le token dans les headers de la requête
-        xhr.setRequestHeader('Authorization', '9b08e56fd086f85dd1ac533912f4ad9ff899590186bffaed82b7710000318076');
-
+        // Include the token in the request headers
+        xhr.setRequestHeader('Authorization', '17bf022324cc6b7913a8b9f3976e256c600361880a720c647f5c77f7919d6c75');
 
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                console.log('Expérience mise à jour avec succès sur le serveur');
+                console.log('Experience and gold successfully updated on the server');
             } else if (xhr.readyState === 4) {
-                console.log('Erreur lors de la mise à jour de l\'expérience sur le serveur', xhr.status, xhr.responseText);
+                console.log('Error updating experience and gold on the server', xhr.status, xhr.responseText);
             }
         };
 
-        var data = JSON.stringify({ "experience": experienceToAdd });
+        var data = JSON.stringify({
+            "experience": experienceToAdd,
+            "gold": goldToAdd
+        });
         xhr.send(data);
     };
-    var showLevelUpMessage = true;
 
-    async function getExperienceFromServer() {
-        return new Promise((resolve, reject) => {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", "http://127.0.0.1:8000/api/player/get-experience", true);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4) {
-                    if (xhr.status === 200) {
-                        var response = JSON.parse(xhr.responseText);
-                        console.log("Expérience obtenue du serveur: ", response.experience);
-                        resolve(response.experience);
-                    } else {
-                        console.log("Erreur lors de la récupération de l'expérience du serveur.");
-                        reject(new Error("Failed to fetch experience from server."));
-                    }
-                }
-            };
-            xhr.send();
-        });
-    }
+    window.loadPlayerDataFromServer = function () {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'http://127.0.0.1:8000/api/player/get-experience-and-gold');
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.setRequestHeader('Authorization', 'Votre_Token');
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var response = JSON.parse(xhr.responseText);
 
-    async function addExperienceToPlayer() {
-        try {
-            const expPoints = await getExperienceFromServer();
-            console.log("Experience Points to Add: " + expPoints);
+                console.log('Data retrieved:', response);
 
-            if ($gameParty && $gameActors && $gameActors.actor(1)) {
-                var actor = $gameActors.actor(1);
+                var experience = response.data.experience;
+                var gold = response.data.gold;
 
-                console.log("=== ADDING EXPERIENCE ===");
-                console.log("Adding experience: " + expPoints);
-                console.log("Current experience: " + actor.currentExp());
-                console.log("Next level at: " + actor.nextRequiredExp());
-                console.log("Current level: " + actor.level);
+                console.log('Setting Experience to:', experience);
+                console.log('Setting Gold to:', gold);
 
-                // Save the current level before adding experience
-                var lastLevel = actor.level;
-
-                // Temporarily override the displayLevelUp function to do nothing
-                var originalDisplayLevelUp = actor.displayLevelUp;
-                actor.displayLevelUp = function (newSkills) { };
-
-                actor.gainExp(expPoints);
-
-                // Restore the original displayLevelUp function after gaining experience
-                actor.displayLevelUp = originalDisplayLevelUp;
-
-                console.log("--- AFTER ADDING EXPERIENCE ---");
-                console.log("New current experience: " + actor.currentExp());
-                console.log("New next level at: " + actor.nextRequiredExp());
-                console.log("New level: " + actor.level);
-
-                actor.refresh();
-
-                if (SceneManager._scene instanceof Scene_Map) {
-                    SceneManager._scene._spriteset.update();
-                }
-            } else {
-                console.error("Actors are not yet loaded. Cannot adjust experience.");
+                // Updating values in RPG Maker MV/MZ
+                $gameParty.gainGold(gold - $gameParty.gold()); // Set gold to the retrieved amount
+                var actor = $gameActors.actor(1); // Assuming 1 is the actor ID you want to modify
+                actor.changeExp(experience, false); // Set experience to the retrieved amount
             }
-        } catch (error) {
-            console.error("Failed to add experience to player: ", error);
-        }
-    }
+        };
+
+        xhr.send();
+    };
+
 
 
     var _Scene_Map_start = Scene_Map.prototype.start;
-
     Scene_Map.prototype.start = function () {
         _Scene_Map_start.call(this);  // Calls the original method
-
         // Check if the function has already been called
         if (!$gameSwitches.value(1)) {  // Replace 1 with the ID of a switch you are not using
-            addExperienceToPlayer();  // Your custom function
-
+            loadPlayerDataFromServer();  // Your custom function
             // Set the switch to true so the function is not called again
             $gameSwitches.setValue(1, true);
         }
+    };
+
+
+
+
+    window.sendBattleRewardsToServer = function (experience, gold) {
+        updateExperienceAndGoldOnServer(experience, gold);
     };
 })();
