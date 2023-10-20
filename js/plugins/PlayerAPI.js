@@ -26,7 +26,7 @@
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'http://127.0.0.1:8000/api/player/get-experience-and-gold');
         xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.setRequestHeader('Authorization', 'Votre_Token');
+        xhr.setRequestHeader('Authorization', '17bf022324cc6b7913a8b9f3976e256c600361880a720c647f5c77f7919d6c75');
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 var response = JSON.parse(xhr.responseText);
@@ -50,7 +50,6 @@
     };
 
 
-
     var _Scene_Map_start = Scene_Map.prototype.start;
     Scene_Map.prototype.start = function () {
         _Scene_Map_start.call(this);  // Calls the original method
@@ -62,10 +61,15 @@
         }
     };
 
-
-
-
     window.sendBattleRewardsToServer = function (experience, gold) {
         updateExperienceAndGoldOnServer(experience, gold);
     };
+
+
+
+
+
+
+
+
 })();

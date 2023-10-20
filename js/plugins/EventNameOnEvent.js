@@ -47,17 +47,17 @@
 
             // Couleur des noms selon level
             var leveldiff = playerlevel - level;
-            if (leveldiff <= 6 && playerlevel < level) { //rouge
+            if (leveldiff < -3) { //rouge
                 textSprite.bitmap.textColor = '#E5003F';
             }
-            else if (leveldiff <= 3 && playerlevel >= level) {//jaune   
+            else if (leveldiff >= -3 && leveldiff <= 3) {//jaune   
                 textSprite.bitmap.textColor = '#E1E73A'
             }
-            else if (leveldiff >= 6 && playerlevel > level) { // gris
-                textSprite.bitmap.textColor = '#B1B1B1'
-            }
-            else {
+            else if (leveldiff >= 4 && leveldiff <= 5) { // vert
                 textSprite.bitmap.textColor = '#5FE73A'
+            }
+            else if (leveldiff >= 6) { // gris
+                textSprite.bitmap.textColor = '#B1B1B1'
             }
             textSprite.bitmap.drawText(text, 0, 0, textWidth, 50);
 

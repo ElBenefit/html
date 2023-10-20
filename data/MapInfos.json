@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Ilya","order":1,"parentId":0,"scrollX":538.5,"scrollY":382.5},
-{"id":2,"expanded":true,"name":"Zaka","order":3,"parentId":1,"scrollX":0,"scrollY":0},
+{"id":1,"expanded":true,"name":"Ilya","order":1,"parentId":0,"scrollX":819,"scrollY":461},
+{"id":2,"expanded":true,"name":"Zaka","order":3,"parentId":1,"scrollX":819,"scrollY":461},
 {"id":3,"expanded":false,"name":"Sveil","order":2,"parentId":1,"scrollX":0,"scrollY":0}
 ]

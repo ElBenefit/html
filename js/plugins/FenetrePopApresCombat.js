@@ -31,13 +31,13 @@ VictoryInfo.lastBattleItems = [];
     Scene_Map.prototype.start = function () {
         VictoryInfo.originalStart.call(this);
         if (VictoryInfo.shouldDisplay) {
-            VictoryInfo.shouldDisplay = false;
             var x = (Graphics.boxWidth - 700) / 2;
             var y = (Graphics.boxHeight - 400) / 2;
             var width = 700;
             var height = 400;
             var victoryWindow = new VictoryInfo.Window(x, y, width, height);
             this.addWindow(victoryWindow);
+            $gamePlayer.setInputDisabled(true);  // Désactiver le mouvement du joueur ici
         }
     };
 
@@ -67,11 +67,15 @@ VictoryInfo.lastBattleItems = [];
                 this.isPressed = false;
                 this.parent.close();
                 this.parent.visible = false;
+                $gamePlayer.setInputDisabled(false);  // Réactivez le mouvement du joueur ici
+                VictoryInfo.shouldDisplay = false;    // Réinitialisez cette variable
             }
             if (TouchInput.isTriggered() && this.isTouching()) {
                 this.isPressed = true;
             }
         };
+
+
 
         this._closeButton.isTouching = function () {
             const x = this.parent.canvasToLocalX(TouchInput.x);
@@ -98,6 +102,13 @@ VictoryInfo.lastBattleItems = [];
             this.drawItemName(VictoryInfo.lastBattleItems[i], 450, yPos);
             yPos += this.lineHeight();
         }
+    };
+
+    // Désactiver l'appel du menu avec le bouton droit ou le bouton B
+    VictoryInfo.originalIsMenuCalled = Scene_Map.prototype.isMenuCalled;
+    Scene_Map.prototype.isMenuCalled = function () {
+        if (VictoryInfo.shouldDisplay) return false;
+        return VictoryInfo.originalIsMenuCalled.call(this);
     };
 
 })();
